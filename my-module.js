@@ -6,10 +6,10 @@ class Person {
 
     ageInfo() {
         if(this.age>=18){
-            return `${this.name} is adult`
+            return `${this.name} is an adult`
         }
         else{
-            return `${this.name} is child`
+            return `${this.name} is a child`
         }
         
     }
